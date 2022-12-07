@@ -1,0 +1,135 @@
+{
+    "scheme": "mplab.datavisualizer.dashboard",
+    "version": 1.1,
+    "settings": {
+        "widgets": {
+            "root": {
+                "type": "group",
+                "position": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "config": {
+                    "style": {},
+                    "children": [
+                        "label-1",
+                        "segment-1",
+                        "progress-1",
+                        "table-1",
+                        "signal-1"
+                    ]
+                }
+            },
+            "label-1": {
+                "type": "label",
+                "position": {
+                    "left": "230px",
+                    "top": "53px",
+                    "width": "85px",
+                    "height": "18px"
+                },
+                "config": {
+                    "style": {
+                        "fontWeight": "bold",
+                        "fontStyle": "normal",
+                        "alignItems": "flex-start",
+                        "textAlign": "left"
+                    },
+                    "label": {
+                        "value": "Light Sensor"
+                    }
+                }
+            },
+            "segment-1": {
+                "type": "segment",
+                "position": {
+                    "left": "160px",
+                    "top": "97px",
+                    "width": "222px",
+                    "height": "71px"
+                },
+                "config": {
+                    "style": {
+                        "fontWeight": "normal",
+                        "fontStyle": "normal",
+                        "alignItems": "center",
+                        "textAlign": "left",
+                        "fontFamily": "segment"
+                    },
+                    "segment": {
+                        "digits": 2,
+                        "base": 10
+                    }
+                }
+            },
+            "progress-1": {
+                "type": "progress",
+                "position": {
+                    "left": "126px",
+                    "top": "75px",
+                    "width": "297px",
+                    "height": "16px"
+                },
+                "config": {
+                    "style": {},
+                    "value": {
+                        "initial": 0,
+                        "min": 0,
+                        "max": 1024
+                    }
+                }
+            },
+            "table-1": {
+                "type": "table",
+                "position": {
+                    "left": "453px",
+                    "top": "55px",
+                    "width": "293px",
+                    "height": "156px"
+                },
+                "config": {
+                    "tableStyle": {},
+                    "labelStyle": {
+                        "width": "100px",
+                        "height": "25px",
+                        "fontWeight": "normal",
+                        "fontStyle": "normal",
+                        "textAlign": "center"
+                    },
+                    "dataStyle": {
+                        "width": "100px",
+                        "height": "25px",
+                        "fontWeight": "normal",
+                        "fontStyle": "normal",
+                        "textAlign": "center"
+                    },
+                    "dimensions": {
+                        "numRows": 2,
+                        "numColumns": 2,
+                        "autoLabels": false
+                    },
+                    "cells": {}
+                }
+            },
+            "signal-1": {
+                "type": "signal",
+                "position": {
+                    "left": "500px",
+                    "top": "153px",
+                    "width": "57px",
+                    "height": "32px"
+                },
+                "config": {
+                    "onStyle": {
+                        "backgroundColor": "#00FF00"
+                    },
+                    "offStyle": {
+                        "backgroundColor": "#Ff0000"
+                    }
+                }
+            }
+        }
+    }
+}
